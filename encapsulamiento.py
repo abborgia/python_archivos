@@ -26,6 +26,6 @@ ususario1=Usuarios("001","abborgia","Eduardo","Serey","123456")
 print(ususario1._Usuarios__password)
 
 ususario1.muestra_datos()
-#ususario1.cambiarPass()
-
+ususario1.cambiarPass()
+ususario1.muestra_datos()
 

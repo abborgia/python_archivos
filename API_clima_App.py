@@ -11,7 +11,7 @@ def mostrar_respuestas(clima):
     temp =clima["main"]["temp"]
 
     ciudad["text"] = nombre_ciudad
-    temperatura["text"] = str(int(temp))+°C #temp con °C
+    temperatura["text"] = str(int(temp))+"°C" #temp con °C
     descripcion["text"] = desc
 
 
