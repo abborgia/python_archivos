@@ -1,12 +1,12 @@
 import psycopg2
 
-connec = psycopg2.connect(
+conn = psycopg2.connect(
     host="localhost",
     database="prueba1",
     user="postgres",
     password="1582")
 
-c = connec.cursor()
+c = conn.cursor()
 c.execute("select * from alumnos")
 
 alumnos = c.fetchall()
